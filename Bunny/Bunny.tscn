@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://cqmwkyvuciw3q"]
+
+[ext_resource type="Script" path="res://Bunny/Bunny.gd" id="1_rkuf8"]
+[ext_resource type="Texture2D" uid="uid://cio3a4p3usa2e" path="res://Bunny/Sprites/Bunny1.png" id="1_seskd"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tdqio"]
+radius = 3.0
+height = 14.0
+
+[node name="Bunny" type="CharacterBody2D"]
+platform_floor_layers = 4294901760
+script = ExtResource("1_rkuf8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.26965e-09, 10)
+rotation = 1.56929
+shape = SubResource("CapsuleShape2D_tdqio")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_seskd")

@@ -1,3 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711923658
+::res://::1712005487
 icon.svg::CompressedTexture2D::3377905983420026058::1711923655::1711923658::1::::<><>::
+::res://Bunny/::1712005515
+Bunny.tscn::PackedScene::5921990324336366912::1712005483::0::1::::<><>::uid://dei3yoslowpyd::::res://Bunny/Bunny1.png
+::res://Bunny/Sprites/::1712005515
+Bunny1.png::CompressedTexture2D::5364955028493606442::1712005313::1712005522::1::::<><>::
+Bunny2.png::CompressedTexture2D::2317270518163490121::1712005313::1712005522::1::::<><>::
